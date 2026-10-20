@@ -1,6 +1,5 @@
 # shopsphere - Women & Girls Fashion E-Commerce Platform
 
-![shopsphere Logo](shopsphere-logo.png)
 
 A modern, production-grade Java Enterprise E-Commerce application built on **Jakarta EE 10**, modern MVC architectural patterns, high-concurrency database connection pooling, distributed network microservices, and containerized deployment pipelines — styled with a vibrant, Flipkart-inspired Women's & Girls' Fashion boutique storefront.
 
