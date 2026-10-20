@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCleanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#bgCleanGrad)"/>
+  
+  <!-- Subtle tech circles -->
+  <circle cx="300" cy="180" r="140" fill="#dbeafe" opacity="0.6"/>
+  <circle cx="230" cy="130" r="80" fill="#bfdbfe" opacity="0.4"/>
+
+  <!-- Modern 3D Shopping Box / Bag Monogram -->
+  <g transform="translate(300, 110)">
+    <!-- Package Base -->
+    <rect x="-45" y="20" width="90" height="90" rx="16" fill="url(#boxGrad)"/>
+    <rect x="-40" y="25" width="80" height="80" rx="12" fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Bag Handle / Ribbon -->
+    <path d="M-22,20 C-22,-5 22,-5 22,20" fill="none" stroke="url(#goldShine)" stroke-width="4.5" stroke-linecap="round"/>
+    
+    <!-- Central Verified Badge -->
+    <circle cx="0" cy="65" r="18" fill="#ffffff" />
+    <path d="M-6,65 L-2,69 L7,60" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Subtle Floating Accents -->
+    <circle cx="-55" cy="10" r="4" fill="url(#goldShine)"/>
+    <circle cx="58" cy="35" r="3" fill="#3b82f6"/>
+    <circle cx="45" cy="105" r="3.5" fill="#60a5fa"/>
+    <circle cx="-50" cy="95" r="2.5" fill="url(#goldShine)"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="300" y="295" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#0f172a" letter-spacing="1" text-anchor="middle">shopsphere</text>
+  <text x="300" y="322" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" fill="#64748b" letter-spacing="3" text-anchor="middle">OFFICIAL GENUINE PRODUCT</text>
+
+  <!-- Bottom Accent bar -->
+  <rect x="250" y="348" width="100" height="3" rx="1.5" fill="url(#boxGrad)"/>
+</svg>

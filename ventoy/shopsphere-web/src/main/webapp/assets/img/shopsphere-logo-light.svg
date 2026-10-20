@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 52" width="260" height="52">
+  <defs>
+    <linearGradient id="ssLightGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="ssLightFacet1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+    <linearGradient id="ssLightGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Modern Sphere Monogram on Dark -->
+  <g transform="translate(6, 6)">
+    <rect x="0" y="0" width="40" height="40" rx="12" fill="#1e293b" />
+    <rect x="0.5" y="0.5" width="39" height="39" rx="11.5" fill="none" stroke="url(#ssLightGlow)" stroke-width="1.5" opacity="0.9"/>
+    
+    <!-- Stylized S Orbit -->
+    <path d="M12 16 C12 12, 28 10, 28 16 C28 22, 12 20, 12 26 C12 32, 28 30, 28 26" fill="none" stroke="url(#ssLightFacet1)" stroke-width="3.2" stroke-linecap="round"/>
+    <circle cx="28" cy="15" r="2.8" fill="url(#ssLightGold)" />
+    <circle cx="12" cy="27" r="2.4" fill="#38bdf8" />
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="56" y="27" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+    SHOP<tspan fill="#38bdf8">SPHERE</tspan>
+  </text>
+  <text x="57" y="39" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8" font-weight="800" fill="#94a3b8" letter-spacing="2.2">
+    MEGA E-COMMERCE STORE
+  </text>
+</svg>

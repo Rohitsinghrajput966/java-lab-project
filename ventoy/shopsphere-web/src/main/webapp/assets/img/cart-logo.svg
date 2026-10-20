@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bagBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="bagGoldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <filter id="blueGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#2563eb" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Bag Handles -->
+  <path d="M18 16 V12 C18 8.686 20.686 6 24 6 C27.314 6 30 8.686 30 12 V16" 
+        fill="none" stroke="url(#bagGoldGlow)" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- Bag Body -->
+  <path d="M11 16 L14 40 C14.2 41.5 15.5 42 17 42 H31 C32.5 42 33.8 41.5 34 40 L37 16 H11 Z" 
+        fill="url(#bagBlueGrad)" filter="url(#blueGlow)"/>
+
+  <!-- Fold details -->
+  <path d="M11 16 L15 22 M37 16 L33 22" 
+        fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Modern Verified Checkmark -->
+  <path d="M20 28 L23 31 L29 24" 
+        fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
